@@ -1,0 +1,20 @@
+Ziua 1:
+10-12: Meet&Greet, semnat documente
+12-13: Prezentare firma
+13-14: Pauza
+14-16: C# Curs introductiv
+
+Ziua 2:
+10-11: Meeting Ilan
+11-12: C# Curs
+12-16: Lucrat+pauza
+
+Ziua 3:
+10-11: C# Curs
+11-16:Lucrat+pauza
+
+Ziua 4:
+10-11: C# curs
+11-12: Pauza
+12-13: C# Curs
+13-16: Lucrat
