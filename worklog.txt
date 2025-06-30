@@ -18,3 +18,7 @@ Ziua 4:
 11-12: Pauza
 12-13: C# Curs
 13-16: Lucrat
+
+Ziua 6:
+10-11: C# Curs
+11-16:Lucrat+pauza
