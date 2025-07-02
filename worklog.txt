@@ -22,3 +22,14 @@ Ziua 4:
 Ziua 6:
 10-11: C# Curs
 11-16:Lucrat+pauza
+
+Ziua 7:
+11 - 12:30 C# Curs
+13-14:Pauza
+14-16:Lucrat tema
+
+Ziua 8:
+10 - 13: Lucrat tema
+13-14 : Uitat peste temele anterioare
+14-15: Pauza
+15-16: C# Curs
