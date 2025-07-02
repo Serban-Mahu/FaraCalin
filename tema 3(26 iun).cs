@@ -1,12 +1,12 @@
-﻿string firstName, familyName;
+string firstName, familyName;
 string? middleName;
-uint contractHourPerWeek,weeksWorked;
+uint contractHourPerWeek, weeksWorked;
 uint age;
-bool currentlyEmployed=false;
-double wagePerYear, payment, total,percent;
-double computePayment(uint hours,double wage)
+bool currentlyEmployed = false;
+double wagePerYear, payment, total, percent;
+double computePayment(uint hours, double wage)
 {
-    return wage/(52 * hours);
+    return wage / (52 * hours);
 }
 double computeTotal(uint weeks, double wage)
 {
@@ -14,26 +14,28 @@ double computeTotal(uint weeks, double wage)
 }
 double computePercentage(uint hours, uint weeks, uint age)
 {
-    return (double)(weeks * hours)/ (double)(age * 8780);
+    return (double)(weeks * hours) / (double)(age * 8780);
 }
-void readAndCompute()
+void readData()
 {
     Console.Write("First name: ");
-    firstName=Console.ReadLine();
+    firstName = Console.ReadLine();
     Console.Write("Middle name: ");
-    middleName =Console.ReadLine();
+    middleName = Console.ReadLine();
     Console.Write("Last name: ");
-    familyName =Console.ReadLine();
+    familyName = Console.ReadLine();
     Console.Write("Number of hours per week: ");
     contractHourPerWeek = uint.Parse(Console.ReadLine());
-    Console.Write("Is the person employed?(1 for yes, 0 for no): ");
-    string employment=(Console.ReadLine());
-    if(employment=="1")
-        currentlyEmployed=true;
+    Console.Write("Is the person employed?(true/false): ");
+    currentlyEmployed = bool.Parse(Console.ReadLine());
     Console.Write("Annual wage: ");
     wagePerYear = double.Parse(Console.ReadLine());
     Console.Write("Number of weeks worked: ");
-    weeksWorked= uint.Parse(Console.ReadLine());
+    weeksWorked = uint.Parse(Console.ReadLine());
+}
+void readAndCompute()
+{
+    readData();
     if (currentlyEmployed)
     {
         Console.Write("Age: ");
@@ -41,8 +43,8 @@ void readAndCompute()
         percent = computePercentage(contractHourPerWeek, weeksWorked, age);
     }
     else percent = 1;
-        payment = computePayment(contractHourPerWeek, wagePerYear);
-    total=computeTotal(weeksWorked, wagePerYear);
+    payment = computePayment(contractHourPerWeek, wagePerYear);
+    total = computeTotal(weeksWorked, wagePerYear);
 }
 readAndCompute();
 if (middleName != "")
