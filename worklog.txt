@@ -33,3 +33,8 @@ Ziua 8:
 13-14 : Uitat peste temele anterioare
 14-15: Pauza
 15-16: C# Curs
+
+Ziua 9:
+10-13: Lucrat tema
+13-14: Pauza
+15-16: C# Curs
