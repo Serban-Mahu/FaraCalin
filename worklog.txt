@@ -38,3 +38,8 @@ Ziua 9:
 10-13: Lucrat tema
 13-14: Pauza
 15-16: C# Curs
+
+Ziua 10:
+12:30-13:30 C# Curs
+13:30-16:00 Lucrat Tema
+
