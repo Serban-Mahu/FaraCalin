@@ -11,7 +11,7 @@ Console.WriteLine("=: terminarea calculului");
 Console.WriteLine("MR se poate folosi pentru substituirea unui nr cu ce e salvat in memorie, defaultul fiind 0");
 Console.WriteLine("C se poate folosi pentru reinceperea calculului");
 Console.WriteLine("Numerele si comenzile trebuie sa fie pe linii individuale.");
-double putere(double a, uint b)
+double binPow(double a, uint b)
 {
     if (b == 0)
         return 1;
