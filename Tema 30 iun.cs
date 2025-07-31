@@ -16,8 +16,8 @@ double binPow(double a, uint b)
     if (b == 0)
         return 1;
     if (b % 2 == 0)
-        a = putere(a * a, b / 2);
-    else a = a * putere(a * a, b / 2);
+        a = binPow(a * a, b / 2);
+    else a = a * binPow(a * a, b / 2);
     return a;
 }
 double memorie = 0,x;
